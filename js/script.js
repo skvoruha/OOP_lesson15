@@ -29,14 +29,13 @@ newClasObj1.width = '100px'
 newClasObj1.height = '150px'
 newClasObj1.bg = 'blue'
 newClasObj1.fontSize = '32px'
-newClasObj1.selector = '.block'
 
 newClasObj2.selector = '#blog'
 newClasObj2.width = '200px'
 newClasObj2.height = '150px'
 newClasObj2.bg = 'orange'
 newClasObj2.fontSize = '16px'
-newClasObj2.selector = '.block'
+
 
 
 newClasObj1.addBlcok()
