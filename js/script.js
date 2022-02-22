@@ -32,7 +32,6 @@ newClasObj1.width = '100px'
 newClasObj1.height = '100px'
 newClasObj1.bg = 'blue'
 newClasObj1.fontSize = '24px'
-newClasObj1.selector = '.block'
 
 document.addEventListener("DOMContentLoaded", () => {
   console.log('DOM готов!');
