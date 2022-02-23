@@ -8,10 +8,14 @@ const DomElement = function (selector,height,width,bg,fontSize) {
     this.bg = bg
     this.fontSize = fontSize
     this.addBlcok = function(){
+    let div = document.createElement('div')
+
       if (this.selector[0] == '.') {
+        div = document.createElement('div')
         div.className = this.selector.slice(1)
       }
       if (this.selector[0] == '#') {
+        div = document.createElement('p')
         div.id = this.selector.slice(1)
       }
       div.style.cssText = 'height:'+ this.height +'; width:'+ this.width +
