@@ -38,7 +38,6 @@ newClasObj1.bg = 'blue'
 newClasObj1.fontSize = '24px'
 
 document.addEventListener("DOMContentLoaded", () => {
-  console.log('DOM готов!');
   newClasObj1.addBlcok()
   newClasObj1.position()
 
@@ -53,7 +52,6 @@ document.addEventListener("DOMContentLoaded", () => {
       let rectElem = square.getBoundingClientRect();
       let x = rectElem.x + pageXOffset,
           y = rectElem.y + pageYOffset;
-      console.log(square)
       if (event.code == "ArrowRight") x += step;
       if (event.code == "ArrowLeft")  x -= step;
       if (event.code == "ArrowUp")    y -= step;
@@ -65,7 +63,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 });
-console.log('DOM не готов!');
 
 
 
